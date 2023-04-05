@@ -1,0 +1,266 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'Roboto',sans-serif;
+}
+.container{
+	width:100%;
+	/*height:100%;*/
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg1.jfif);
+	background-position:center;
+	background-size:cover;
+	padding-left:28px;
+	padding-right:28px;
+	box-sizing:bolder-box;
+}
+.navbar{
+	height:12%;
+	display:flex;
+	align-items:center;
+	width:95%;
+	font-size:20px;
+	
+}
+.logo{
+	
+	width:125px;
+	cursor:pointer;
+}
+nav{
+	flex:1;
+	text-align:right;
+}
+nav ul li{
+	list-style:none;
+	display:inline-block;
+	margin-left:60px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:13px;
+}
+button{
+	width:180px;
+	font-size:12px;
+	padding:12px 0;
+	text-align:center;
+	color:#000;
+	background:#fff;
+	cursor:pointer;
+}
+.button{
+	flex:1;
+	text-align:right;
+}
+.col{
+	flex-basis:50%;
+	
+}
+.row{
+	
+	display:flex;
+	align-items:center;
+}
+.card{
+	width:130px;
+	height:180px;
+	display:inline-block;
+	border-radius:8px;
+	padding:15px 25px;
+	box-shadow:border-box;
+	cursor:pointer;
+	margin:10px 15px;
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+}
+
+.card1{
+	background-image:url(b&m.png);
+}
+.card2{
+	background-image:url(digitalmag.png);
+}
+.card3{
+	background-image:url(MuseumPass.png);
+}
+.card4{
+	background-image:url(music.png);
+}
+.card5{
+	background-image:url(ebooks.png);
+}
+.card6{
+	background-image:url(movies.png);
+}
+.card7{
+	background-image:url(tech.png);
+}
+.card8{
+	background-image:url(next.png);
+}
+.card9{
+	background-image:url(more.png);
+}
+.card:hover{
+	transform:translatey(-10px)
+}
+h5{
+	color:red;
+	text-shadow:0 0 5px red;
+}
+
+/*user & account*/
+.container1{
+	width:100%;
+	/*height:100%;*/
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg11.jpg);
+	background-position:center;
+	background-size:cover;
+	padding-left:28px;
+	padding-right:28px;
+	box-sizing:bolder-box;
+}
+.profile{
+	width:80px;
+}
+.col1{
+	flex-basis:50%;
+	
+}
+.row1{
+	
+	display:flex;
+	align-items:center;
+}
+.button1{
+	width:100px;
+	font-size:12px;
+	padding:12px 0;
+	text-align:center;
+	color:#000;
+	background:#fff;
+	cursor:pointer;
+	margin:15px;
+}
+.button3{
+	margin:140px;
+	width:170px;
+	padding:-12px;
+}
+.button4{
+	width:170px;
+}
+
+.button5{
+	margin:140px;
+	width:170px;
+	padding:-12px;
+}
+
+.cards{
+	width:130px;
+	height:130px;
+	display:inline-block;
+	border-radius:8px;
+	padding:15px 25px;
+	box-shadow:border-box;
+	cursor:pointer;
+	margin:10px 15px;
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+}
+.card10{
+	background-image:url(mybooks.jpg);
+}
+.card11{
+	background-image:url(myaudio.jpg);
+}
+.card12{
+	background-image:url(auweek.png);
+}
+.card13{
+	background-image:url(myac.jpg);
+}
+.card14{
+	background-image:url(fav.jpg);
+}
+.card15{
+	background-image:url(bookweek.png);
+}
+.cards:hover{
+	transform:translatey(-10px)
+}
+h3{
+	color:red;
+	text-shadow:0 0 5px red;
+}
+.navbar1{
+	height:12%;
+	display:flex;
+	align-items:center;
+	width:75%;
+	font-size:20px;
+	padding:12px;
+}
+
+h2{
+	color:white;
+}
+
+
+/*3page*/
+.container2{
+	width:96.5%;
+	/*height:100%;*/
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg21aa.jpeg);
+	background-position:center;
+	background-size:cover;
+	padding-left:28px;
+	padding-right:28px;
+	box-sizing:bolder-box;
+}
+
+#search{
+	width:50%;
+	padding:12px 20px;
+	border:none;
+	font-size:17px;
+}
+
+.cards1{
+	width:150px;
+	height:220px;
+	display:inline-block;
+	border-radius:8px;
+	padding:15px 25px;
+	box-shadow:border-box;
+	cursor:pointer;
+	margin:10px 35px;
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+	
+}
+.card16{
+	background-image:url(children.png);
+}
+.card17{
+	background-image:url(teens.png);
+}
+.card18{
+	background-image:url(homework.png);
+}
+.card19{
+	background-image:url(recommendation.png);
+}
+.cards1:hover{
+	transform:translatey(-10px)
+}
+
+
+
+
+

@@ -1,0 +1,533 @@
+/* header */
+.header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+/* Body  */
+  body{
+	background-image: url("Temp.jpg");
+	background-color: aliceblue;
+	width:100%;
+	background-repeat: no-repeat;
+  } 
+
+   /*Navigation bar  */
+ .Navigation_bar{
+     box-sizing:border-box;
+
+ }
+
+ .table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+  
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+.nav{
+	list-style-type: none;
+	background-color:rgb(237, 6, 6);
+	overflow:hidden;
+	font-size: larger;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 10px;
+	margin: 0px opx 40px 0px;
+	overflow: auto;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	text-align: center;
+	color:white;
+	padding:opz 55px 0px 55px;
+}
+
+.menu{
+	width: 16.66%;
+	float:left;
+}
+
+
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	display: block;
+	color: rgb(192, 28, 28);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page*/ 
+  .topnav a.active {
+	background-color: #f32121;
+	color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+	float: center;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+	.topnav a, .topnav input[type=text] {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 14px;
+	}
+	.topnav input[type=text] {
+	  border: 1px solid #ccc;
+	}
+  }
+
+  .column {
+	float: left;
+	width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  } */
+
+
+/* user account button */
+  #account{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 0px 1px 0px;
+    background-color: rgba(125, 241, 43, 0.993);
+  }
+
+  #hours{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+	margin: 0px 1px 0px;
+    background-color: rgba(125, 241, 43, 0.993);
+  }
+/* how to get a card button */
+  #getcard{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 0px 1px 0px;
+    background-color: rgba(125, 241, 43, 0.993);
+  }
+
+   .col-container {
+	display: flex;
+	width: 100%;
+	border: 2px solid rgb(11, 7, 7);
+	/* background-color:#edf4f2; */
+  } 
+  .col {
+	flex: 1;
+	padding: 16px;
+	border: 2px solid rgb(238, 12, 12);
+	
+  }
+
+/* Container holding the image and the text */
+.col-container {
+	position: absolute;
+  }
+  
+  
+  .text-block  {
+	position: relative;
+	top: 0px;
+	left:10px;
+  }
+
+ /*div{
+	  border:0.2px solid black;
+  }*/
+
+  .c1 {
+	float: left;
+	width: 33.33%;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .row1 {
+	display: flex;
+	width: 100%;
+	border: 2px solid rgb(11, 7, 7);
+	 /* background-color:#f1a156;  */
+  }
+
+  .c1 {
+	flex: 1;
+	padding: 16px;
+	border: 2px solid rgb(238, 12, 12);
+	
+  }
+
+  .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(98, 113, 254);
+    color: white;
+    border: 2px solid black;
+  }
+
+  .footer-cols{
+    width:31%;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#audio{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 0px 1px 0px;
+    background-color: rgba(125, 241, 43, 0.993);
+  }
+
+  #music{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 0px 1px 0px;
+    background-color: rgba(125, 241, 43, 0.993);
+  }
+
+  #digitel{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 0px 1px 0px;
+    background-color: rgba(125, 241, 43, 0.993);
+  }
+
+  #movie{
+    vertical-align: middle;
+    width: 150pxpx;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 0px 1px 0px;
+    background-color: rgba(96, 230, 12, 0.993);
+  }
+
+  
+      
+  .rowi {
+    display: flex;
+    width: 100%;
+    border: 2px solid rgb(11, 7, 7);
+    background-color:#f3b32b;
+    }
+
+    
+    .column1 {
+    flex: 1;
+    padding: 16px;
+    border: 2px solid rgb(238, 12, 12);
+    
+    }
+
+    .row2 {
+      display: flex;
+      width: 100%;
+      border: 2px solid rgb(11, 7, 7);
+      /* background-color:#bef4e5; */
+      }
+      .column2 {
+      flex: 1;
+      padding: 16px;
+      border: 2px solid rgb(238, 12, 12);
+      
+      }
+
+      .row3 {
+        display: flex;
+        width: 100%;
+        border: 2px solid rgb(11, 7, 7);
+        /* background-color:#bef4e5; */
+        }
+        .column3 {
+        flex: 1;
+        padding: 16px;
+        border: 2px solid rgb(238, 12, 12);
+        }
+
+        *{
+          box-sizing:border-box;
+        }
+        
+        .card{
+          box-shadow: o 4px 8px 0 rgba(0,0,0,0.2);
+          padding:16px;
+          text-align:center;
+          background-color:#f1f1f1 ;
+          border: 2px solid rgb(238, 12, 12);
+        }
+
+        #crd{
+          vertical-align: middle;
+          width: 150pxpx;
+          height:35px;
+          border: 2px solid black;
+          border-radius: 5%;
+          padding: 5px;
+          margin: 0px 1px 0px;
+          background-color: rgba(96, 230, 12, 0.993);
+
+        }
+        
+        #manage{
+          vertical-align: middle;
+          width: 150pxpx;
+          height:35px;
+          border: 2px solid black;
+          border-radius: 5%;
+          padding: 5px;
+          margin: 0px 1px 0px;
+          background-color: rgba(96, 230, 12, 0.993);
+        }
+
+        #reserve{
+          vertical-align: middle;
+          width: 150pxpx;
+          height:35px;
+          border: 2px solid black;
+          border-radius: 5%;
+          padding: 5px;
+          margin: 0px 1px 0px;
+          background-color: rgba(96, 230, 12, 0.993);
+        }
+
+        #help{
+          vertical-align: middle;
+          width: 150pxpx;
+          height:35px;
+          border: 2px solid black;
+          border-radius: 5%;
+          padding: 5px;
+          margin: 0px 1px 0px;
+          background-color: rgba(96, 230, 12, 0.993);
+        }
+
+        #services{
+          vertical-align: middle;
+          width: 150pxpx;
+          height:35px;
+          border: 2px solid black;
+          border-radius: 5%;
+          padding: 5px;
+          margin: 0px 1px 0px;
+          background-color: rgba(96, 230, 12, 0.993);
+        }
+
+        .colum {
+          float: left;
+          width: 50%;
+          padding: auto;
+          border: 2px solid rgb(238, 12, 12);
+          
+        }
+        
+        Clear floats after the columns 
+         .rowx:after {
+          content: "";
+          display: table;
+          clear: both;
+          border: 2px solid rgb(11, 7, 7);
+          background-color:#bef4e5;
+          overflow:hidden ;
+        }
+
+
+        #div1{
+          height:300px;
+          width:300px;
+          /* background-color:red; */
+          position:relative;
+          margin:0;
+          border: 2px solid rgb(238, 12, 12);
+          }
+      #div2{
+          height:300px;
+          width:300px;
+          /* background-color:green; */
+          position:relative;
+          left:320px;
+          bottom:300px;
+          border: 2px solid rgb(238, 12, 12);
+          }
+       #div3{
+          height:300px;
+          width:300px;
+          /* background-color:yellow; */
+          position:relative;
+          bottom:280px;
+          margin: 0;
+          border: 2px solid rgb(238, 12, 12);
+          }
+     
+      
+          .col-container {
+            /*  newly updated*/
+          display: flex;
+              justify-content: space-between;
+          width: 100%;
+              gap:20px
+          }
+          .col {
+              /*  newly updated*/
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              padding: 16px;
+              background: rgb(255,255,255,0.7);
+              border-radius: 40px;
+              width: 30%;
+              max-width: 300px;
+        
+          }
+        
+
+        .card-container {
+            /*  newly updated*/
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap:20px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        .card {
+            /*  newly updated*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: rgb(255,255,255,0.5);
+            border-radius: 40px;
+            width: 30%;
+            max-width: 300px;
+            border-color: transparent !important;
+            padding: 30px;
+        
+        }
+        .rounded-card {
+            /*  newly updated*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: rgb(255,255,255,0.5);
+            border-radius: 50%;
+            width: 230px;
+            height: 230px;
+            max-width: 300px;
+            border-color: transparent !important;
+            padding: 30px;
+            gap:10px;
+        
+        }
+        
+        .card h2 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .welcome-title {
+            text-align: center;
+            color: yellow;
+            margin-bottom: 50px;
+        }
+        
+        .button-container{
+            border-radius: 40px;
+            padding:5px 20px;
+            border-color: transparent;
+        }
+        
+        .body {
+            padding: 0 30px;
+            overflow-x: hidden;
+        }
+        
+        .welcome-title{
+          color: #000;
+        }
+
+        
+

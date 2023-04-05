@@ -1,0 +1,118 @@
+body{
+	margin-top:20px;
+	background-color:lightgray;
+}
+.main{
+	padding:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.topbar{
+	background-color:teal;
+	overflow:hidden;
+}
+.topbar a{
+	float:center;
+	color:whitesmoke;
+	text-align:center;
+	padding:20px 26px;
+	text-decoration:none;
+	font-size:26px;
+}
+.slidebar{
+	background-color:#333;
+	color:white;
+	height:100%;
+}
+
+.card{
+	position:relative;
+	display:flex;
+	flex-direction:column;
+}
+.content{
+	background-color:whitesmoke;
+}
+.icon-bar {
+			width: 200px;
+			background-color: teal;
+			}
+
+			.icon-bar a {
+			display: block;
+			text-decoration: none;
+			padding: 15px;
+			transition: all 0.3s ease;
+			color: whitesmoke;
+			font-size: 26px;
+			}
+
+			.icon-bar a:hover {
+			background-color: teal;
+			}
+
+			.active {
+			background-color: teal;
+			
+			  .main{
+            margin-top: 10%;
+        }
+
+		/* Body  */
+body{
+	background-image: url("../Images/Temp.jpg");
+	background-color: aliceblue;
+	width:100%;
+	background-repeat: no-repeat;
+  } 
+
+   /*Navigation bar  */
+ .Navigation_bar{
+     box-sizing:border-box;
+
+ }
+
+ .table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+  
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+.nav{
+	list-style-type: none;
+	background-color:rgb(237, 6, 6);
+	overflow:hidden;
+	font-size: larger;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 10px;
+	margin: 0px opx 40px 0px;
+	overflow: auto;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	text-align: center;
+	color:white;
+	padding:opz 55px 0px 55px;
+}
+
+.menu{
+	width: 16.66%;
+	float:left;
+}
+
+
+
+  
+  
